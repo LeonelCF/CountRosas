@@ -1,0 +1,63 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+._setting {
+    background-color: aliceblue;
+    padding: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.set1{
+    
+}
+span, select, option, button {
+    font-size: 20px;
+}
+
+#reset {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+#reset:hover {
+    background-color: yellow;
+}
+
+._output {
+    background-color: #fff;
+    height: 50vh;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._input {
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    padding: 10px;
+}
+
+.input {
+    background-color: mediumseagreen;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.input:hover {
+    background-color: green;
+}
